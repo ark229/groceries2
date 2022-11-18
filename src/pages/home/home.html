@@ -40,6 +40,16 @@
           Edit
         </button>
 
+        <button
+          (click)="shareItem(item, i)"
+          ion-button
+          color="light"
+          icon-start
+        >
+          <ion-icon name="share"></ion-icon>
+          Share
+        </button>
+
         <!-- DONE BUTTON SLIDER-->
         <button
           (click)="removeItem(item, i)"
